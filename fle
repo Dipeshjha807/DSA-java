@@ -1,0 +1,3 @@
+git status =tu check the status 
+git restore --staged *.class= this if me class file ko push nhi krna chta hu
+git add .  = isko tb jb hume file ko stagng pe add krna he 
