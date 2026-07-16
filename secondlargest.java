@@ -10,6 +10,7 @@ public class secondlargest {
                 secondLargest=largest;
                 largest=arr[i];
             }
+            
         }
         System.out.println(secondLargest);
         System.out.println(largest);
