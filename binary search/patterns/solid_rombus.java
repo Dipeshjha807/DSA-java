@@ -5,7 +5,7 @@ public class solid_rombus {
         for (int row=1;row<n;row++){
             //for each row print space thes stars
             //spaces
-            for (int j=1;j<=n-row;j++){
+            for (int j=1;j<=n-row;j++){ 
                 System.out.print(" ");
             }
             //stars
