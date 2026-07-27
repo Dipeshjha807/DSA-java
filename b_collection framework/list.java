@@ -20,6 +20,17 @@ public class list {
 list.remove(1);
 System.out.println(list);
 
+//siize() -> size of the list
+
+System.out.println(list.size());  //output=2
+
+
+
+//set()
+list.set(1,32);
+System.out.println(list);
+
+
 
 
 
