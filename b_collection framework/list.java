@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class list {
 
@@ -14,6 +16,7 @@ public class list {
     list.add(1);
     list.add(3);
     list.add(6);
+    list.add(78);
     System.out.println(list);
 
     //remove(index)
@@ -28,6 +31,19 @@ System.out.println(list.size());  //output=2
 
 //set()
 list.set(1,32);
+System.out.println(list);
+
+
+//get()
+list.get(1);
+System.out.println(list);
+list.add(2);
+System.out.println(list);
+//containa()
+ System.out.println(  list.contains(1));  //true
+
+ //sort()
+Collections.sort(list);
 System.out.println(list);
 
 
