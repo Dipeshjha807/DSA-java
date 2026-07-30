@@ -4,6 +4,10 @@ import java.util.Set;
 public class hashset2 {
     public static void main(String[] args) {
 
+//hashset=O(1)
+//linkedset=O(n)
+// treeset=O(  )
+
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> set2 = new HashSet<>();
 
