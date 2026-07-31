@@ -23,8 +23,7 @@ public class perfectguess{
             } else if (a < n) {
                 System.out.println("Higher number please");
             } else {
-                System.out.println("You have guessed the number " + n +
-                                   " correctly in " + guesses + " attempts!");
+                System.out.println("You have guessed the number " + n +  " correctly in " + guesses + " attempts!");
             }
         }
 
