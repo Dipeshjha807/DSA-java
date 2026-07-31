@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class multiply {
     public static void main(String[] args) {
@@ -10,8 +9,8 @@ public class multiply {
            int multiply= arr[i];
            int check=arr[i]*10;
 
-System.out.println(check);
-System.out.println( );
+//System.out.print( Arrays.toString(newarr));
+System.out.print(check);
         }
         
     }
