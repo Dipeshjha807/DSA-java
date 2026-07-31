@@ -22,3 +22,4 @@ public class FindFirstElement {
        
 }
 }
+//O(n)
