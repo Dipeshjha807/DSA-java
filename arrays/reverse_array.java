@@ -4,6 +4,7 @@ import java.util.Arrays;
 public class reverse_array {
 
     /// GFG question we have to do
+    
     public static void main(String[] args) {
 
         int[] arr = { 1, 2, 3, 4, 5 };
@@ -25,3 +26,4 @@ public class reverse_array {
 
     }
 }
+//O(n )
