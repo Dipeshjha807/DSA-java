@@ -26,4 +26,4 @@ public class reverse_array {
 
     }
 }
-//O(n )
+//O(n)
