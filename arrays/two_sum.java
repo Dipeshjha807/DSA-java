@@ -14,3 +14,4 @@ public class two_sum {
     }
     }
 }
+//O(n^2) time complexity, O(1) space complexity 
