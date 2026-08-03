@@ -8,4 +8,3 @@ public class findUniqueElement {
         System.out.println(xor);
     }
 }
-//O(n) time complexity and O(1) space complexity.

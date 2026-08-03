@@ -15,3 +15,19 @@ public class missing_no {
     }
 }
 //O(n) time complexity and O(1) space complexity.
+
+/*O(n) time complexity and O(1) space complexity\//
+(1 ^ 2 ^ 3 ^ 5 ^ 6 ^ 7 ^ 8)
+^
+(1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6 ^ 7 ^ 8)
+
+XOR ka rule=a ^ a = 0
+Aur XOR me jo number pair nahi paata, wahi end me bachta hai
+//1 ^ 1 = 0
+//2 ^ 2 = 0
+//3 ^ 3 = 0
+//5 ^ 5 = 0
+//6 ^ 6 = 0
+//7 ^ 7 = 0
+//8 ^ 8 = 0
+// to bacha 4 to wohi missing element he */
