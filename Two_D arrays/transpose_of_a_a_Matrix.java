@@ -3,9 +3,7 @@ public class transpose_of_a_a_Matrix {
         
         int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }};
 
-       if(arr==null || arr.length==0){
-          return;
-       }
+       
         int[][] transpose = new int[arr[0].length][arr.length];
 
         for (int i = 0; i < arr.length; i++) {
