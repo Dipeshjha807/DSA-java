@@ -7,7 +7,7 @@ public class sprialPrint {
         int endCol = arr[0].length - 1;
 
         while (startRow <= endRow && startCol <= endCol) {
-            
+
             /// top starting row print krni he to from startCol to endCol
             for (int j = startCol; j <= endCol; j++) {
                 System.out.print(arr[startRow][j] + " ");
@@ -37,3 +37,10 @@ public class sprialPrint {
         }
     }
 }
+//1. Top Row    → left to right
+
+//2. Right Col  → top to bottom
+
+//3. Bottom Row → right to left
+
+//4. Left Col   → bottom to top
