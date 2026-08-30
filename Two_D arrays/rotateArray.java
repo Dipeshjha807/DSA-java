@@ -32,3 +32,8 @@ System.out.println("Rotated array is : ");
         }
     }
 }
+/*Transpose
++
+Reverse Row
+=
+Rotate */

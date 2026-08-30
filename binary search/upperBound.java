@@ -23,6 +23,5 @@ public class upperBound {
 
 /*
  * LOWER BOUND → first >= target
- * 
  * UPPER BOUND → first > target
  */
