@@ -1,6 +1,6 @@
 public class peakIndex {
     public static void main(String[] args) {
-        int[] arr={0,1,2,3 ,4,3,2,1};
+        int[] arr={0,1,2,3,4,7,2,1};
         int start=0;
         int end=arr.length-1;
         while(start<end){
@@ -10,10 +10,11 @@ public class peakIndex {
                 start=mid+1;
             }
             else{
+                
                 end=mid;
                 
             }
         }
-        System.out.println(start);
+        System.out.println(arr[start]);
     }
 }
