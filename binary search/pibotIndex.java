@@ -1,4 +1,6 @@
-public class rotated_osrtedARRAY {
+// find the pivot index in rotated sorted array
+
+public class pibotIndex {
     public static void main(String[] args) {
         int arr[] = { 50,60,70,10,20,30,40 };
         int start = 0;
