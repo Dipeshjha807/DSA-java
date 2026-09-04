@@ -1,6 +1,6 @@
 public class painters_partition {
 
-static boolean isvalid(int arr[], int k, int maxlength) {
+static boolean isvalid(int arr[], int k, int maxlength) {      /// maxlength  is same as mid hum yaha koi bhi maxlenght nh9 nikal rhe he wohi mid hi nikal rhe he bs jb bhi functioncall hota he tb jo mid ka value he wohi maxlength me assign ho jata he
     /// mid is the max length of boards
     /// k is the number of painters
     /// arr is the array of boards
