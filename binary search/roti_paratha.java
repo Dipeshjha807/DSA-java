@@ -2,7 +2,7 @@ public class roti_paratha {
 
     static boolean isvalid(int totalrotis, int[] arr, int totalcook, int mid) {
 
-        int roticount = 0;
+        int roticount = 0;  // abhi tk roti 0 hi bani he 
         for (int i = 0; i < arr.length; i++) {
             int currentcook = arr[i]; // current cook ki rank kya he pta krne ke lie
             int timetaken = 0;
@@ -12,9 +12,9 @@ public class roti_paratha {
             // cook 1=R1,cook2=R2 ....
             // cook krna start krna he to start kro
             while (timetaken <= mid) {
-                int timeForNextParatha = j * currentcook;
                 if (timetaken + j * currentcook <= mid) {
                     // iska mtlbv ye roti bann sktya he
+                     int timeForNextParatha = j * currentcook;
                     timetaken += timeForNextParatha; // Yahan total time update hoga!
                     roticount++;
                     j++;
@@ -59,3 +59,4 @@ public class roti_paratha {
         System.out.println(ans);
     }
 }
+/*Total Count: Hum bas ye check kar rahe hain ki agar har cook ko shuru se lekar mid time tak akela chhod diya jaye, toh wo apni rank ke hisab se kitni rotis banayega. Aakhir me hum sabhi cooks ki banayi hui rotis ko roticount me jod lete hain. */
