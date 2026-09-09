@@ -25,7 +25,7 @@ public class single_non_duplicate {
                 }
             }
             else if(arr[mid]==arr[mid+1]){
-                if(mid%2==0){
+                if(mid%2==0){  
                     start=mid+2;
                 }
                 else{
