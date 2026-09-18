@@ -4,7 +4,7 @@ public class hollo_pyramid {
         for (int i = 1; i <= n; i++) {
 
             // part 1: spaces
-            for (int j = 1; j <= n - i; j++) {
+             for (int j = 1; j <= n - i; j++) {
                 System.out.print("  ");
             }
             // part 2

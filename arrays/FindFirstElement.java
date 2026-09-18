@@ -1,8 +1,6 @@
 public class FindFirstElement {
 
     // find the first unsorted array
-
-
  static int issorted(int[] arr){
        
         for (int i = 0; i <= arr.length; i++) {

@@ -9,7 +9,6 @@ public class single_non_duplicate {
         while(start<= end){
             int mid=start+(end-start)/2;
 
-
             //// to chck is arr[mid] is a valid ans or not so we can chekc 
             if(arr[mid]!=arr[mid-1]&&arr[mid]!=arr[mid+1]){
                 System.out.println("Single non-duplicate element is: "+arr[mid]);
