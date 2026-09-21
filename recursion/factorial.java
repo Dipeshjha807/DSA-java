@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class factorial {
 
@@ -9,7 +10,10 @@ public class factorial {
         return ans;
     }
     public static void main(String[] args) {
-        System.out.println(factorials(5));
+        Scanner sc =new Scanner(System.in);
+         System.out.println("enter number");
+         int n =sc.nextInt();
+        System.out.println(factorials(n));
     }
     
 }
