@@ -18,5 +18,6 @@ public class fibonacci {
         System.out.println("enter the number:");
         int n=sc.nextInt();
         System.out.println(fib(n));
+        sc.close();
     }
 }
