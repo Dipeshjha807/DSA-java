@@ -6,7 +6,7 @@ public class revers_printing {
         }
         System.out.print(n+" ");
         reverse(n-1);
-    }
+    }                 
     
     public static void main(String[] args) {
         reverse(5);
