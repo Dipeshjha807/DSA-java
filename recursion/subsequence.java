@@ -7,18 +7,18 @@ public class subsequence {
     static void sequence(String s, int index, StringBuilder output, List<String> ans) {
         // base case 
         if (index >= s.length()) {
-            // subsequence ready
+           
             String sub = output.toString();
             ans.add(sub);
             return;
         }
         
-        // 1. Include (Pick) pattern
+        // 1. Include 
         char ch = s.charAt(index);
         output.append(ch);
         sequence(s, index + 1, output, ans);
         
-        // 2. Exclude (Don't Pick) / Backtrack step
+        // 2. Exclude 
         output.deleteCharAt(output.length() - 1);
         sequence(s, index + 1, output, ans);
     }
@@ -34,7 +34,6 @@ public class subsequence {
         return ans;
     }
 
-    // VS Code mein run karne ke liye main method
     public static void main(String[] args) {
         subsequence sol = new subsequence();
         String s = "abc";
