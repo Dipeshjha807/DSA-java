@@ -8,7 +8,12 @@ public class coin_change2 {
         if (amount < 0 || index >= coins.length) {
             return 0; // Amount negative ho gaya ya coins khatam ho gaye, rasta galat hai
         }
+
+        // malo con ki value 5 he and amount bavlue 40 he agar me 5 ko include kr luy to 35 ho jyga remainamount is 35
         int include=solve(amount-coins[index], coins, index);
+
+
+        // man lo amount 40 he aur curewnt vaklue 40 he to exclude krne ke bd to koi change nhi he so kyu ki curent coin ko exlucr kia he to mujhe next coin pe jana padega simple 
 
         int exclude=solve(amount, coins, index+1);
         int finalans=include+exclude;
