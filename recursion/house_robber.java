@@ -8,7 +8,7 @@ public class house_robber {
         int includeans=arr[index]+rob(arr, index+2);
          int excludeans=0+rob(arr, index+1);
          int finalans=Math.max(includeans, excludeans);
-         return finalans;
+         return finalans ;
         
     }
     
@@ -19,4 +19,4 @@ public class house_robber {
     System.out.println(as);
     }
 }
-  
+   
