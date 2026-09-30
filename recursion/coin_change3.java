@@ -12,7 +12,7 @@ public class coin_change3 {
 
         for(int coins:coin)
 {
-    int check=solve(coin, amount -  coins);
+    int check=solve(coin, amount -  coins);                ///amount - coins ka matlab hai: "Agar maine yeh wala coin utha liya, toh ab bacha hua amount kitna hai?" Us bache hue amount ke liye yeh function dobara recursion se khud ko bulata hai (solve).
     if(check==Integer.MAX_VALUE){
         continue;
     }
@@ -21,7 +21,7 @@ else{
     min=Math.min(min, totalcoinused);
 }
 }
-return min;
+return min; 
     }
     
    

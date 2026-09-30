@@ -9,7 +9,7 @@ public class coin_change2 {
             return 0; // Amount negative ho gaya ya coins khatam ho gaye, rasta galat hai
         }
 
-        // malo con ki value 5 he and amount bavlue 40 he agar me 5 ko include kr luy to 35 ho jyga remainamount is 35
+        // malo con ki value 5 he and amount bavlue 40 he agar me 5 ko include kr luy to 35 ho jyga remain amount is 35
         int include=solve(amount-coins[index], coins, index);
 
 
