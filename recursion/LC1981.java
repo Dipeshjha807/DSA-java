@@ -4,6 +4,12 @@ static int solve(int sum,int target,int[][] arr,int row){
 
 //bae case
 if(row>=arr.length){
+// mtlb hu row 1 row 2 krte krte array ke index ke niche chale gai he 
+// t0 hum woha kyta krna h jo sun nikla he usko humtarget se minus krna tha to 
+/// target - sum kr die he hum so w calculate the diffrence between target as sun 
+/// jb bhi row jop he index se niche chle ya uske bd 
+/// 
+
     return Math.abs(target-sum);
 }
 int min=Integer.MAX_VALUE;
