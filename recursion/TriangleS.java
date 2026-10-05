@@ -1,6 +1,6 @@
 import java.util.List;
 import java.util.Arrays;
-
+// leetcode 120
 public class TriangleS {
 
     // Yeh raha tera main solve function
