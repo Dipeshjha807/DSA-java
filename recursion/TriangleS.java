@@ -13,7 +13,7 @@ public class TriangleS {
         int difrow = solve(triangle, row + 1, col+ 1);
         int ansd = Math.min(samerow, difrow);
 
-        return triangle.get(row).get(col) + ansd;
+        return triangle.get(row).get(col) + ansd;  ///.get(row).get(col)= iskq mtlbv he ki hum sourse pe jo khade he wo ans dega mtlb jaise ki 2 start row he wo  uska dega aisa he 
     }
 
     public static void main(String[] args) {
