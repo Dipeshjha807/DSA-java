@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class combuinationSUM {
+public class combuinationSUM2 {
 
  public static void solve(int[] candidates, int target, int index, List<Integer> output, List<List<Integer>> ans) {
         // Base Case: Target mil gaya
