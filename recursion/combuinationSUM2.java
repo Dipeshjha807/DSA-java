@@ -11,27 +11,20 @@ public class combuinationSUM2 {
             return;
         }
 
-        // Loop chalega current index se aage tak
-        for (int i = index; i < candidates.length; i++) {
-            // Duplicate check (Same level par pichhla element skip karo)
-            if (i > index && candidates[i] == candidates[i - 1]) {
-                continue;
-            }
-            
-            // Agar element target se bada hai, toh aage ke saare bade honge (kyunki sorted hai)
-            if (candidates[i] > target) {
-                break;
-            }
-
-            // 1. INCLUDE
-            output.add(candidates[i]);
-            
-            // 2. RECURSION (Agli position 'i + 1' bhejo, 'index + 1' nahi!)
-            solve(candidates, target - candidates[i], i + 1, output, ans);
-            
-            // 3. BACKTRACK (Eraser)
-            output.remove(output.size() - 1);
+        if(target <0 || index>=candidates.length){
+            return;
         }
+        output.add(candidates[index]);
+        solve(candidates, target -candidates[index], index+1, output, ans);
+
+        output.remove(output.size()-1);
+        while(index+1 <candidates.length&& candidates[index]==candidates[index+1]){
+            index ++;
+        }
+
+                solve(candidates, target, index+1, output, ans);
+
+       
     }
 
 
