@@ -20,7 +20,8 @@ public class permitution2 {
     }
     public static void main(String[] args) {
         ArrayList<String> ans = new ArrayList<>();
-        solve("abc", "", ans);
+        String output="";
+        solve("abc", output, ans);
         System.out.println(ans);
     }
 }
